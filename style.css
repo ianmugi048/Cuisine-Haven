@@ -1,0 +1,125 @@
+body{
+    background-image: url(images/pexels-valeriya-1639556.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    backdrop-filter: blur(0px);
+    filter:brightness(200px)
+    
+}
+nav a{
+    text-decoration: none;
+    padding: 10px;
+    color:aliceblue;
+
+}
+nav a:hover{
+    background-color: orange;
+}
+header h1{
+    color: aliceblue;
+}
+body{
+    text-align:left;
+    margin-left:30px;
+    margin-right:20px;
+    color:aliceblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+body p{
+   text-decoration: wavy;
+   text-size-adjust: 10px;
+   color: aliceblue;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+body h3{
+    color: aliceblue;
+}
+img{
+   width: 200px;
+   height:200px;
+   padding: 10px;
+   border-radius: 20px;
+   display: inline-block;
+   padding-right: 80px;
+   backdrop-filter: blur(5px);
+   background-color:none;
+  
+   
+}
+div{
+    background-color:none;
+
+}
+
+div li{
+    margin-right:170px;
+    list-style: lower-alpha;
+    display:inline-block;
+
+}
+div a{
+    text-decoration: none;
+    color: orange;
+}
+div a:hover{
+    background-color: aliceblue;
+}
+footer a{
+    text-decoration: none;
+    display: block;
+   
+}
+/*body{
+    background-color:none;
+}*/
+form{
+    width: 90% ;
+    margin: right 40px;
+    
+}
+
+
+
+form input{
+    padding-left: 50px;
+    border-radius: 5px;
+    border: solid 2px;
+    text-align: left;
+}
+.button{
+    background-color: rgb(238, 238, 121);
+    text-align: center;
+    display:inline-block;
+    padding: 3px;
+    margin-right: 20px;
+}
+.button:hover{
+    background-color:yellowgreen;
+}
+
+form select{
+    border: solid 2px;
+    border-radius: 5px;
+}
+ 
+
+a{
+    text-decoration: none;
+    color:orange;
+}
+a:hover{
+    background-color: aliceblue;
+}
+label{
+    display: block;
+}
+table th{
+    color: orange;
+    font-style: oblique;
+}
+table{
+    width: 80%;
+}

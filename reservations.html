@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cuisine Haven</title>
+</head>
+<section>
+    <header>
+        <h1> Cuisine Haven</h1>
+    </header>
+</section>
+
+<nav>
+    <a href="homepage.html" >HOME</a>
+    <a href="about.html">ABOUT US</a>
+    <a href="reservations.html"> RESERVATIONS</a>
+    <a href="contact.html"> CONTACT US</a>
+</nav>
+<hr>
+<body id="reservations">
+    <h1>ORDERS AND RESERVATIONS!</h1>
+    <caption><I> Commonly ordered foods available and their prices</I></caption>
+    <table border="solid" cellspacing="0px" cellpadding="5px">
+        <tr>
+            <th>DISH</th>
+            <th>Price($)</th>
+            <th>DISH</th>
+            <th>Price($)</th>
+
+        </tr>
+        <tr >
+            <td >chicken caesar wrap</td>
+            <td>5.50</td>
+            <td>lentil soup</td>
+            <td>3.80</td>
+        </tr>
+        <tr>
+            <td>turkey meatballs</td>
+            <td>6.50</td>
+            <td>tofu stir-fry</td>
+            <td>4.20</td>
+        </tr>
+        <tr>
+            <td>baked cod</td>
+            <td>7.00</td>
+            <td>cottage cheese</td>
+            <td>3.50</td>
+        </tr>
+        <tr>
+            <td>kale and quinoa</td>
+            <td>5.00</td>
+            <td>roasted brussel sprouts</td>
+            <td>3.00</td>
+        </tr>
+        <tr>
+            <td>whole wheat pasta</td>
+            <td>4.00</td>
+            <td>grilled asparagus</td>
+            <td>3.20</td>
+        </tr>
+        <tr>
+            <td>tuna salad</td>
+            <td>4.80</td>
+            <td>almond butter smoothie</td>
+            <td>4.00</td>
+        </tr>
+        <tr>
+            <td>grilled chicken(kienyeji)</td>
+            <td>4.50</td>
+            <td>steak</td>
+            <td>6.50</td>
+        </tr>
+        <tr>
+            <td>chickpea and spinach curry</td>
+            <td>4.50</td>
+            <td>vegie and humus wrap</td>
+            <td>4.00</td>
+        </tr>
+        <tr>
+            <td>poached eggs on spinach</td>
+            <td>3.80</td>
+            <td>grilled turkey burger</td>
+            <td>6.20</td>
+        </tr>
+
+        
+    </table>
+
+    <caption>
+        <h3>Fill in the form below to place your order or reservations . </h3>
+    </caption>
+    <form  action="#" method="POST">
+        <label for="name">Enter your names: </label>
+        <input type="text" id="name" required placeholder="Allan">
+        <br>
+        <label for="email">Enter your email address:</label>
+        <input type="email" id="email" placeholder="allan@gmail.com" required>
+        <br>
+        <label for="phone">Enter your phone number</label>
+        <input type="number" id="phone" placeholder="0745654874" required>
+        <br>
+        <label for="sevice">Select the type of service:</label>
+        <select>
+            <option>Order</option>
+            <option>Reservation</option>
+        </select>
+        <br>
+        <p>**if its an order:</p><br>
+        <label for="order">Enter what you wish to order</label>
+        <input type="text" id="order" placeholder="Fried chicken" >
+        <br>
+        <p>**if its a reservation</p><br>
+        <label for="reservation">Reserve a table by entering the table number:</label>
+        <select>
+            <option>Table 1</option>
+            <option>Table 2</option>
+            <option>Table 3</option>
+            <option>Table 4</option>
+            <option>Table 5</option>
+            <option>Table 6</option>
+            <option>Table 7</option>
+            <option>Table 8</option>
+            <option>Table 9</option>
+        </select>
+        <br>
+        <label for="tarehe">Enter the date for reservation:</label>
+        <input type="date" id="tarehe" required>
+        <br>
+        <label for="saa">Enter the time for reservation:</label>
+        <input type="time" id="saa" required>
+        <br>
+        <label for="aods">Additional information (optional)</label><br>
+        <input type="text" id="aods" placeholder="Any special requests or details">
+        <br>
+        <input class="button" type="submit"> 
+        <input class="button" type="reset"><br>
+
+        <p class="reserve">For more queries on reservations and orders <a href=mailto:kihiuallan46@gmail.com> EMAIL US!</a></p>
+
+
+    </form>
+    <footer>
+        <p>&copy; 2025 cuisine Haven.All rights reserved.</p>
+        <P>Follow us on :</P>
+        <a href="https://x.com/home" target="_blank"> TWITTER</a>
+        <a href="https://www.instagram.com/accounts/login/?hl=en" target="_blank"> INSTAGRAM</a>
+        <a href="https://www.facebook.com/?_rdr" target="_blank"> FACEBOOK</a>
+        <marquee scrollamount="5" direction="left"> <em>Cuisine Haven , where taste is a whole new experience</em></marquee>
+    </footer>
+
+
+   
+
+    
+</body>
+</html>
